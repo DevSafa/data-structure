@@ -21,6 +21,11 @@ function findNemo(array)
 
 findNemo(everyone); //O(n) --> Linear Time
 
+const compressAllBoxes = boxes => {
+    boxes.forEach(box => console.log(box));
+};
+
+compressAllBoxes(everyone);
 /*
     - what is the big O of the function findNemo.
     - runtime is how long it takes to run.
